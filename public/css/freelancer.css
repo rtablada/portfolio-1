@@ -82,7 +82,8 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #127a91;
+    background: url('../littlerock.jpg') fixed center no-repeat;
+    background-size: cover;
 }
 
 header .container {
@@ -94,7 +95,9 @@ header img {
     display: block;
     margin: 0 auto 20px;
     border-radius: 50%;
+    background: #fff;
 }
+
 
 header .intro-text .name {
     display: block;
@@ -102,12 +105,18 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
+    background-color: rgba(44, 62, 80, 0.77);
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
 }
+
+.intro-text-bg {
+  background-color: rgba(44, 62, 80, 0.77);
+}
+
 
 .fa {
   margin: 10px;
@@ -168,6 +177,10 @@ header .intro-text .skills {
 
 .navbar .navbar-nav li a:focus {
     outline: 0;
+}
+
+.navbar-default {
+  opacity: .6;
 }
 
 .navbar-default,
